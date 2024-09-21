@@ -5,11 +5,10 @@ docker compose up -d
 ```
 
 Настраиваем mongodb и заполняем данными
+
 ```shell
 ./scripts/mongo-init.sh
 ```
 
-Завершаем работу
-```
+Заканчиваем работу
 docker compose down --volumes
-```
